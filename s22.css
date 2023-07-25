@@ -1,0 +1,204 @@
+body {
+    background-color: #ffffff !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-form-wrapper {
+    padding: 70px 0;
+   
+    
+  }
+  
+  .contact-form {
+    max-width: 430px;
+	width: 100%;
+	display: block;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+	background-color: white;
+	padding: 44px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px ;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    border-color: black;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+   
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #0078d4;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #0078d4;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    
+  }
+
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #f0f4f5;
+    color: #0078d4;
+  }
+  
+  .logo {
+    background-color: #f25022;
+    box-shadow: 
+        55px 0 0 0 #7fba00, 
+        0 55px 0 0 #00a4ef, 
+        55px 55px 0 0 #ffb900;
+    height: 50px;
+    width: 50px;
+      margin-left: 45%;
+  margin-right: auto;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  margin-right: auto;
+    margin-top: 5%;
+    width:100%;
+  }
+.ttlo{
+  
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+.ttlo img{
+  
+  margin-top: 30px;
+  width:266px;
+   height:100px;
+}
+
+.cua{
+	margin-bottom: 100px;
+}#ia{
+	width: 115px;
+}
+#p{
+	margin: 13px 0;
+	font-size: 1.5rem;
+    line-height: 1.70rem;
+    font-weight: 600;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+	color: #1b1b1b;
+	box-sizing: border-box;
+}
+.camp input{
+	width: 95%;
+	border: none;
+	border-bottom: 1px solid #545454;
+	padding: 3px 0;	
+	font-size: 16px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+#btn-task-form{
+	color: white;
+	background-color: #0067b8;
+	outline: none;
+	padding: 65px 66px;
+	font-size: 17px;
+	cursor: pointer;
+	border: none;
+  
+}
+#btn-task-form{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px ;
+
+}
+
+@media (max-width: 920px){
+	body{
+		background-color: rgb(255, 247, 247);
+
+	}
+	.contact-form{
+		box-shadow: none;
+		margin-top: 0px;
+		padding: 40px 0;
+	}
+}
+.btn-task-form{
+	display: flex;
+	justify-content: flex-end;
+	margin: 1px ;
+}
+
+#btn-task-form{
+	color: white;
+	background-color: #0067b8;
+	outline: none;
+	padding: 6px 15px;
+	font-size: 17px;
+	cursor: pointer;
+	border: none;
+  margin-top: 1px;
+  }
+  
+.aS{
+	font-size: 14px;
+    line-height: 25px;
+  }
+
+  #btn-task-2{
+    color: white;
+    background-color: #0067b8;
+    outline: none;
+    padding: 7px 15px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+  
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    color:  #1b1b1b;;
+    font-family:sans-serif ;
+  }
